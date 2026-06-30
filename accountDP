@@ -1,0 +1,466 @@
+package com.qa.dataprovider;
+ 
+import java.io.File;
+import org.testng.ITestContext;
+import org.testng.annotations.DataProvider;
+ 
+import com.qa.base.BaseTest;
+import com.qa.utils.ExcelLibrary;
+import com.qa.utils.TestUtils;
+ 
+public class AccountDP {
+	private static String almostCompletePath = File.separator + "src" + File.separator + "test" + File.separator
+			+ "resources" + File.separator + BaseTest.brandVal.toUpperCase() + File.separator;
+	private static String sheetName = BaseTest.brandVal.toUpperCase() + "iOSRegTestData.xlsx";
+	private static String env = BaseTest.envVal;
+	private static ThreadLocal<ExcelLibrary> testData = ThreadLocal
+			.withInitial(() -> new ExcelLibrary(almostCompletePath + env + sheetName));
+ 
+	// Method to get the thread-local ExcelLibrary instance
+	public static ExcelLibrary getTestData() {
+		return testData.get();
+	}
+	// validate_ShopNow_Link_Form_MyAccount
+	@DataProvider(name = "validate_ShopNow_Link_Form_MyAccount")
+	public Object[][] validate_ShopNow_Link_Form_MyAccount(ITestContext context) {
+		return TestUtils.getData("validate_ShopNow_Link_Form_MyAccount", getTestData(), "AccountTestData");
+	}
+ 
+	// Validate_Save_Profile_And_Preference_With_Valid_Details
+	@DataProvider(name = "validate_Save_Profile_And_Preference_With_Valid_Details")
+	public Object[][] validate_Save_Profile_And_Preference_With_Valid_Details(ITestContext context) {
+		return TestUtils.getData("validate_Save_Profile_And_Preference_With_Valid_Details", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_ProfileAndPreference_Link_Form_MyAccount
+	@DataProvider(name = "validate_ProfileAndPreference_Link_Form_MyAccount")
+	public Object[][] validate_ProfileAndPreference_Link_Form_MyAccount(ITestContext context) {
+		return TestUtils.getData("validate_ProfileAndPreference_Link_Form_MyAccount", getTestData(), "AccountTestData");
+	}
+ 
+	// Validate_Change_Password_In_ProfileAndPreference
+	@DataProvider(name = "validate_Change_Password_In_ProfileAndPreference")
+	public Object[][] validate_Change_Password_In_ProfileAndPreference(ITestContext context) {
+		return TestUtils.getData("validate_Change_Password_In_ProfileAndPreference", getTestData(), "AccountTestData");
+	}
+ 
+	// Validate_Saved_Payment_Link_From_MyAccount
+	@DataProvider(name = "validate_Saved_Payment_Link_From_MyAccount")
+	public Object[][] validate_Saved_Payment_Link_From_MyAccount(ITestContext context) {
+		return TestUtils.getData("validate_Saved_Payment_Link_From_MyAccount", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Edit_CreditCard_Details_Popup
+	@DataProvider(name = "add_CC_Detail_To_Account_Saved_Payment")
+	public Object[][] add_CC_Detail_To_Account_Saved_Payment(ITestContext context) {
+		return TestUtils.getData("add_CC_Detail_To_Account_Saved_Payment", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Edit_CreditCard_Details_Popup
+	@DataProvider(name = "validate_Edit_CreditCard_Details_Popup")
+	public Object[][] validate_Edit_CreditCard_Details_Popup(ITestContext context) {
+		return TestUtils.getData("validate_Edit_CreditCard_Details_Popup", getTestData(), "AccountTestData");
+	}
+ 
+	// edit_Credit_Card_Attempt_With_Valid_Details
+	@DataProvider(name = "edit_Credit_Card_Attempt_With_Valid_Details")
+	public Object[][] edit_Credit_Card_Attempt_With_Valid_Details(ITestContext context) {
+		return TestUtils.getData("edit_Credit_Card_Attempt_With_Valid_Details", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Add_New_CreditCard_Details_Popup
+	@DataProvider(name = "validate_Add_New_CreditCard_Details_Popup")
+	public Object[][] validate_Add_New_CreditCard_Details_Popup(ITestContext context) {
+		return TestUtils.getData("validate_Add_New_CreditCard_Details_Popup", getTestData(), "AccountTestData");
+	}
+ 
+	// Validate_Address_Book_Link_From_MyAccount
+	@DataProvider(name = "validate_Address_Book_Link_From_MyAccount")
+	public Object[][] validate_Address_Book_Link_From_MyAccount(ITestContext context) {
+		return TestUtils.getData("validate_Address_Book_Link_From_MyAccount", getTestData(), "AccountTestData");
+	}
+ 
+	// Validate_Address_Book_Link_From_MyAccount
+	@DataProvider(name = "validate_Add_New_Shipping_Address_Details_Popup")
+	public Object[][] validate_Add_New_Shipping_Address_Details_Popup(ITestContext context) {
+		return TestUtils.getData("validate_Add_New_Shipping_Address_Details_Popup", getTestData(), "AccountTestData");
+	}
+ 
+	// Add new Addressbook Details in Address book
+	@DataProvider(name = "add_New_Shipping_Address_Book_Details")
+	public Object[][] add_New_Shipping_Address_Book_Details(ITestContext context) {
+		return TestUtils.getData("add_New_Shipping_Address_Book_Details", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Update_Shipping_Address_Details_Popup
+	@DataProvider(name = "validate_Update_Shipping_Address_Details_Popup")
+	public Object[][] validate_Update_Shipping_Address_Details_Popup(ITestContext context) {
+		return TestUtils.getData("validate_Update_Shipping_Address_Details_Popup", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Update_Shipping_Address_Detailss
+	@DataProvider(name = "validate_Update_Shipping_Address_Details")
+	public Object[][] validate_Update_Shipping_Address_Detailss(ITestContext context) {
+		return TestUtils.getData("validate_Update_Shipping_Address_Details", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Remove_Shipping_Address_Details_AddressBook
+	@DataProvider(name = "validate_Remove_Shipping_Address_Details_AddressBook")
+	public Object[][] validate_Remove_Shipping_Address_Details_AddressBook(ITestContext context) {
+		return TestUtils.getData("validate_Remove_Shipping_Address_Details_AddressBook", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_MyWishList_Link_Form_MyAccount
+	@DataProvider(name = "validate_MyWishList_Link_Form_MyAccount")
+	public Object[][] validate_MyWishList_Link_Form_MyAccount(ITestContext context) {
+		return TestUtils.getData("validate_MyWishList_Link_Form_MyAccount", getTestData(), "AccountTestData");
+	}
+	// validate_Remove_CC_Details_From_SavedPayment
+ 
+	@DataProvider(name = "validate_Remove_CC_Details_From_SavedPayment")
+	public Object[][] validate_Remove_CC_Details_From_SavedPayment(ITestContext context) {
+		return TestUtils.getData("validate_Remove_CC_Details_From_SavedPayment", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_MyDefalut_When_Clicking_MakeMyDefault
+	@DataProvider(name = "validate_MyDefalut_When_Clicking_MakeMyDefault")
+	public Object[][] validate_MyDefalut_When_Clicking_MakeMyDefault(ITestContext context) {
+		return TestUtils.getData("validate_MyDefalut_When_Clicking_MakeMyDefault", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Delete_Button_IsNot_Displayed_For_UnDefault
+	@DataProvider(name = "validate_Delete_Button_IsNot_Displayed_For_UnDefault")
+	public Object[][] validate_Delete_Button_IsNot_Displayed_For_UnDefault(ITestContext context) {
+		return TestUtils.getData("validate_Delete_Button_IsNot_Displayed_For_UnDefault", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_Tier1_Status_Displayed
+	@DataProvider(name = "validate_Tier1_Status_Displayed")
+	public Object[][] validate_Tier1_Status_Displayed(ITestContext context) {
+		return TestUtils.getData("validate_Tier1_Status_Displayed", getTestData(), "AccountTestData");
+	}
+ 
+	@DataProvider(name = "InvalidAccountSignInTestData")
+	public Object[][] InvalidAccountSignInTestData(ITestContext context) {
+		return TestUtils.getData("Invalid Account Sign In Test Data", getTestData(), "AccountTest");
+	}
+ 
+	// validate_Save_Profile_And_Preference_With_Email_Preference_Option
+	@DataProvider(name = "validate_Save_Profile_And_Preference_With_Email_Preference_Option")
+	public Object[][] validate_Save_Profile_And_Preference_With_Email_Preference_Option(ITestContext context) {
+		return TestUtils.getData("validate_Save_Profile_And_Preference_With_Email_Preference_Option", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// edit_Credit_Card_Attempt_With_Blank_Details
+	@DataProvider(name = "edit_Credit_Card_Attempt_With_Blank_Details")
+	public Object[][] edit_Credit_Card_Attempt_With_Blank_Details(ITestContext context) {
+		return TestUtils.getData("edit_Credit_Card_Attempt_With_Blank_Details", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Add_New_CreditCard_Link_Not_Displayed_When_Added_Four_CC_Details
+	@DataProvider(name = "validate_Links_Under_Registered_UserName_DropDown")
+	public Object[][] validate_Links_Under_Registered_UserName_DropDown(ITestContext context) {
+		return TestUtils.getData("validate_Links_Under_Registered_UserName_DropDown", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Reward_Page_Cta_Button
+	@DataProvider(name = "validate_Reward_Page_Cta_Button")
+	public Object[][] validate_Reward_Page_Cta_Button(ITestContext context) {
+		return TestUtils.getData("validate_Reward_Page_Cta_Button", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Tier1_Status_Message
+	@DataProvider(name = "validate_Tier1_Status_Message")
+	public Object[][] validate_Tier1_Status_Message(ITestContext context) {
+		return TestUtils.getData("validate_Tier1_Status_Message", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Point_History_And_View_History_On_MyAccount
+	@DataProvider(name = "validate_Point_History_And_View_History_On_MyAccount")
+	public Object[][] validate_Point_History_And_View_History_On_MyAccount(ITestContext context) {
+		return TestUtils.getData("validate_Point_History_And_View_History_On_MyAccount", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_Point_History_And_View_History_On_MyAccount
+	@DataProvider(name = "validate_Links_From_MyAccount")
+	public Object[][] validate_Links_From_MyAccount(ITestContext context) {
+		return TestUtils.getData("validate_Links_From_MyAccount", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_FAQ_Link_From_Reward_Status
+	@DataProvider(name = "validate_FAQ_Link_From_Reward_Status")
+	public Object[][] validate_FAQ_Link_From_Reward_Status(ITestContext context) {
+		return TestUtils.getData("validate_FAQ_Link_From_Reward_Status", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Terms_Link_From_Reward_Status
+	@DataProvider(name = "validate_Terms_Link_From_Reward_Status")
+	public Object[][] validate_Terms_Link_From_Reward_Status(ITestContext context) {
+		return TestUtils.getData("validate_Terms_Link_From_Reward_Status", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_MyOrders_Link_From_MyAccount
+	@DataProvider(name = "validate_MyOrders_Link_From_MyAccount")
+	public Object[][] validate_MyOrders_Link_From_MyAccount(ITestContext context) {
+		return TestUtils.getData("validate_MyOrders_Link_From_MyAccount", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_MyOffers_Link_From_MyAccount
+	@DataProvider(name = "validate_MyOffers_Link_From_MyAccount")
+	public Object[][] validate_MyOffers_Link_From_MyAccount(ITestContext context) {
+		return TestUtils.getData("validate_MyOffers_Link_From_MyAccount", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_My_WHBM_Closet_Link_From_MyAccount
+	@DataProvider(name = "validate_My_Closet_Link_From_MyAccount")
+	public Object[][] validate_My_Closet_Link_From_MyAccount(ITestContext context) {
+		return TestUtils.getData("validate_My_Closet_Link_From_MyAccount", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Save_Profile_And_Preference_With_Blank_Details
+	@DataProvider(name = "validate_Save_Profile_And_Preference_With_Blank_Details")
+	public Object[][] validate_Save_Profile_And_Preference_With_Blank_Details(ITestContext context) {
+		return TestUtils.getData("validate_Save_Profile_And_Preference_With_Blank_Details", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_Privacy_Policy_On_Profile_And_Preference
+	@DataProvider(name = "validate_Privacy_Policy_On_Profile_And_Preference")
+	public Object[][] validate_Privacy_Policy_On_Profile_And_Preference(ITestContext context) {
+		return TestUtils.getData("validate_Privacy_Policy_On_Profile_And_Preference", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_Return_Policy_From_MyOrders
+	@DataProvider(name = "validate_Return_Policy_From_MyOrders")
+	public Object[][] validate_Return_Policy_From_MyOrders(ITestContext context) {
+		return TestUtils.getData("validate_Return_Policy_From_MyOrders", getTestData(), "AccountTestData");
+	}
+ 
+	// validate_AddItems_From_MyWishList
+	@DataProvider(name = "validate_AddItems_From_MyWishList")
+	public Object[][] validate_AddItems_From_MyWishList(ITestContext context) {
+		return TestUtils.getData("validate_AddItems_From_MyWishList", getTestData(), "AccountTestData");
+	}
+ 
+	// add_Credit_Card_Attempt_With_Blank_Details
+	@DataProvider(name = "add_Credit_Card_Attempt_With_Blank_Details")
+	public Object[][] add_Credit_Card_Attempt_With_Blank_Details(ITestContext context) {
+		return TestUtils.getData("add_Credit_Card_Attempt_With_Blank_Details", getTestData(), "AccountTestData");
+	}
+ 
+	// add_Address_Book_With_Blank_Details
+	@DataProvider(name = "add_Address_Book_With_Blank_Details")
+	public Object[][] add_Address_Book_With_Blank_Details(ITestContext context) {
+		return TestUtils.getData("add_Address_Book_With_Blank_Details", getTestData(), "AccountTestData");
+	}
+ 
+	// add_Address_Book_Update__With_Blank_Details
+	@DataProvider(name = "add_Address_Book_Update__With_Blank_Details")
+	public Object[][] add_Address_Book_Update__With_Blank_Details(ITestContext context) {
+		return TestUtils.getData("add_Address_Book_Update__With_Blank_Details", getTestData(), "AccountTestData");
+	}
+ 
+	// add_SavedPayment_Details_And_Update_With_Blank_Details
+	@DataProvider(name = "add_SavedPayment_Details_And_Update_With_Blank_Details")
+	public Object[][] add_SavedPayment_Details_And_Update_With_Blank_Details(ITestContext context) {
+		return TestUtils.getData("add_SavedPayment_Details_And_Update_With_Blank_Details", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_MyAccount_From_DropDown_LoggedIn_LoyaltyUser
+	@DataProvider(name = "validate_MyAccount_From_DropDown_LoggedIn_LoyaltyUser")
+	public Object[][] validate_MyAccount_From_DropDown_LoggedIn_LoyaltyUser(ITestContext context) {
+		return TestUtils.getData("validate_MyAccount_From_DropDown_LoggedIn_LoyaltyUser", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_Save_Profile_And_Preference_With_Optional_Details
+	@DataProvider(name = "validate_Save_Profile_And_Preference_With_Optional_Details")
+	public Object[][] validate_Save_Profile_And_Preference_With_Optional_Details(ITestContext context) {
+		return TestUtils.getData("validate_Save_Profile_And_Preference_With_Optional_Details", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_Update_Shipping_Address_With_OptionalDetails
+	@DataProvider(name = "validate_Update_Shipping_Address_With_OptionalDetails")
+	public Object[][] validate_Update_Shipping_Address_With_OptionalDetails(ITestContext context) {
+		return TestUtils.getData("validate_Update_Shipping_Address_With_OptionalDetails", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// edit_Credit_Card_Attempt_With_Valid_OptionalDetails
+	@DataProvider(name = "edit_Credit_Card_Attempt_With_Valid_OptionalDetails")
+	public Object[][] edit_Credit_Card_Attempt_With_Valid_OptionalDetails(ITestContext context) {
+		return TestUtils.getData("edit_Credit_Card_Attempt_With_Valid_OptionalDetails", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_Add_New_CreditCard_Link_Not_Displayed_When_Added_Four_CC_Details
+	@DataProvider(name = "validate_Add_New_CreditCard_Link_Not_Displayed_When_Added_Four_CC_Details")
+	public Object[][] validate_Add_New_CreditCard_Link_Not_Displayed_When_Added_Four_CC_Details(ITestContext context) {
+		return TestUtils.getData("validate_Add_New_CreditCard_Link_Not_Displayed_When_Added_Four_CC_Details",
+				getTestData(), "AccountTestData");
+	}
+ 
+	// Add_Address_Book_With_Invalid_Data
+	@DataProvider(name = "Add_Address_Book_With_Invalid_Data")
+	public Object[][] add_Address_Book_With_Invalid_Data(ITestContext context) {
+		return TestUtils.getData("Add_Address_Book_With_Invalid_Data", getTestData(), "AccountTestData");
+	}
+ 
+	// add_Invalid_CC_Detail_To_Account_Saved_Payment
+	@DataProvider(name = "add_Invalid_CC_Detail_To_Account_Saved_Payment")
+	public Object[][] add_Invalid_CC_Detail_To_Account_Saved_Payment(ITestContext context) {
+		return TestUtils.getData("add_Invalid_CC_Detail_To_Account_Saved_Payment", getTestData(), "AccountTestData");
+	}
+ 
+	// mark_As_Default_Another_Payment
+	@DataProvider(name = "mark_As_Default_Another_Payment")
+	public Object[][] mark_As_Default_Another_Payment(ITestContext context) {
+		return TestUtils.getData("mark_As_Default_Another_Payment", getTestData(), "AccountTestData");
+	}
+ 
+	@DataProvider(name = "verify_Default_Shipping_Details_Populated_In_Checkout")
+	public Object[][] verify_Default_Shipping_Details_Populated_In_Checkout(ITestContext context) {
+		return TestUtils.getData("verify_Default_Shipping_Details_Populated_In_Checkout", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "verify_Join_For_Free_Button_Displayed_For_All_Users")
+	public Object[][] verify_Join_For_Free_Button_Displayed_For_All_Users(ITestContext context) {
+		return TestUtils.getData("verify_Join_For_Free_Button_Displayed_For_All_Users", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_Birth_Month_Profile_And_Preference_Can_Be_Saved_Only_Once
+	@DataProvider(name = "validate_Birth_Month_Profile_And_Preference_Can_Be_Saved_Only_Once")
+	public Object[][] validate_Birth_Month_Profile_And_Preference_Can_Be_Saved_Only_Once(ITestContext context) {
+		return TestUtils.getData("validate_Birth_Month_Profile_And_Preference_Can_Be_Saved_Only_Once", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_Tier_User_With_Founder_Flag_Set_True_Welcome_name
+	@DataProvider(name = "validate_Tier_User_With_Founder_Flag_Set_True_Welcome_Name")
+	public Object[][] validate_Tier_User_With_Founder_Flag_Set_True_Welcome_Name(ITestContext context) {
+		return TestUtils.getData("validate_Tier_User_With_Founder_Flag_Set_True_Welcome_Name", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_Save_Profile_And_Preference_With_International_ZipCode
+	@DataProvider(name = "validate_Save_Profile_And_Preference_With_International_ZipCode")
+	public Object[][] validate_Save_Profile_And_Preference_With_International_ZipCode(ITestContext context) {
+		return TestUtils.getData("validate_Save_Profile_And_Preference_With_International_ZipCode", getTestData(),
+				"AccountTestData");
+	}
+ 
+	// validate_Address_Book_With_International_ZipCode_And_MobileNo
+	@DataProvider(name = "validate_Address_Book_With_International_ZipCode_And_MobileNo")
+	public Object[][] validate_Address_Book_With_International_ZipCode_And_MobileNo(ITestContext context) {
+		return TestUtils.getData("validate_Address_Book_With_International_ZipCode_And_MobileNo", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_Custom_Credit_Card_Details_In_Saved_Payments")
+	public Object[][] validate_Custom_Credit_Card_Details_In_Saved_Payments(ITestContext context) {
+		return TestUtils.getData("validate_Custom_Credit_Card_Details_In_Saved_Payments", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_My_Offers_Page_Displayed_For_Associate_User")
+	public Object[][] validate_My_Offers_Page_Displayed_For_Associate_User(ITestContext context) {
+		return TestUtils.getData("validate_My_Offers_Page_Displayed_For_Associate_User", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_Links_In_Account_Section_For_Guest_User")
+	public Object[][] validate_Links_In_Account_Section_For_Guest_User(ITestContext context) {
+		return TestUtils.getData("validate_Links_In_Account_Section_For_Guest_User", getTestData(), "AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_Links_In_Account_Section_For_Logged_In_User")
+	public Object[][] validate_Links_In_Account_Section_For_Logged_In_User(ITestContext context) {
+		return TestUtils.getData("validate_Links_In_Account_Section_For_Logged_In_User", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_Links_In_Account_Section_For_Associate_User")
+	public Object[][] validate_Links_In_Account_Section_For_Associate_User(ITestContext context) {
+		return TestUtils.getData("validate_Links_In_Account_Section_For_Associate_User", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_Links_In_Account_Section_For_Logged_In_Rewards_User")
+	public Object[][] validate_Links_In_Account_Section_For_Logged_In_Rewards_User(ITestContext context) {
+		return TestUtils.getData("validate_Links_In_Account_Section_For_Logged_In_Rewards_User", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_Links_In_Account_Section_For_Associate_Rewards_User")
+	public Object[][] validate_Links_In_Account_Section_For_Associate_Rewards_User(ITestContext context) {
+		return TestUtils.getData("validate_Links_In_Account_Section_For_Associate_Rewards_User", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_Email_Update_In_Profile_And_Preference")
+	public Object[][] validate_Email_Update_In_Profile_And_Preference(ITestContext context) {
+		return TestUtils.getData("validate_Email_Update_In_Profile_And_Preference", getTestData(), "AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_PLCC_CreditCard_Application_Flow")
+	public Object[][] validate_PLCC_CreditCard_Application_Flow(ITestContext context) {
+		return TestUtils.getData("validate_PLCC_CreditCard_Application_Flow", getTestData(), "AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_PLCC_CreditCard_Application_For_Decline_Flow")
+	public Object[][] validate_PLCC_CreditCard_Application_For_Decline_Flow(ITestContext context) {
+		return TestUtils.getData("validate_PLCC_CreditCard_Application_For_Decline_Flow", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_PLCC_CreditCard_Application_For_Pending_Flow")
+	public Object[][] validate_PLCC_CreditCard_Application_For_Pending_Flow(ITestContext context) {
+		return TestUtils.getData("validate_PLCC_CreditCard_Application_For_Pending_Flow", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_CBCC_CreditCard_Application_For_Decline_Flow")
+	public Object[][] validate_CBCC_CreditCard_Application_For_Decline_Flow(ITestContext context) {
+		return TestUtils.getData("validate_CBCC_CreditCard_Application_For_Decline_Flow", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_CBCC_CreditCard_Application_For_Pending_Flow")
+	public Object[][] validate_CBCC_CreditCard_Application_For_Pending_Flow(ITestContext context) {
+		return TestUtils.getData("validate_CBCC_CreditCard_Application_For_Pending_Flow", getTestData(),
+				"AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_Communication_Preferences")
+	public Object[][] validate_Communication_Preferences(ITestContext context) {
+		return TestUtils.getData("validate_Communication_Preferences", getTestData(), "AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_Wishlist")
+	public Object[][] validate_Wishlist(ITestContext context) {
+		return TestUtils.getData("validate_Wishlist", getTestData(), "AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_Rewards_Page")
+	public Object[][] validate_Rewards_Page(ITestContext context) {
+		return TestUtils.getData("validate_Rewards_Page", getTestData(), "AccountTestData");
+	}
+ 
+	@DataProvider(name = "validate_Account_Dashboard")
+	public Object[][] validate_Account_Dashboard(ITestContext context) {
+		return TestUtils.getData("validate_Account_Dashboard", getTestData(), "AccountTestData");
+	}
+	@DataProvider(name = "validate_New_PLCC_Is_Default_Payment_After_Adding_3_Payments")
+	public Object[][] validate_New_PLCC_Is_Default_Payment_After_Adding_3_Payments(ITestContext context) {
+		return TestUtils.getData("validate_New_PLCC_Is_Default_Payment_After_Adding_3_Payments", getTestData(), "AccountTestData");
+	}
+}
