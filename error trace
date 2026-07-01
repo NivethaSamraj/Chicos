@@ -1,0 +1,517 @@
+[INFO ] 2026-07-01 09:23:51.931 com.qa.utils.TestUtils:215 - Unable to find elements found with locator type: xpath, Locator: //*[contains(@class, 'cart-product-details-price')]//*[text()='FREE GIFT'], Error: Expected condition failed: waiting for presence of any elements located by By.xpath: //*[contains(@class, 'cart-product-details-price')]//*[text()='FREE GIFT'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47, org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of any elements located by By.xpath: //*[contains(@class, 'cart-product-details-price')]//*[text()='FREE GIFT'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47
+[INFO ] 2026-07-01 09:23:51.973 com.qa.utils.TestUtils:215 - Retrieved attribute 'innerText from the Bag Product Count element, ' value: 1
+[INFO ] 2026-07-01 09:23:51.973 com.qa.utils.TestUtils:677 - Actual Value is Expected: 1, Actual: 1
+[INFO ] 2026-07-01 09:23:51.973 com.qa.utils.TestUtils:678 - Expected Value is Expected: 1, Actual: 1
+[INFO ] 2026-07-01 09:24:12.506 com.qa.utils.TestUtils:215 - Unable to find element found with locator type: xpath, Locator: (//main//*[translate(normalize-space(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='associate discount']/following-sibling::*), Error: Expected condition failed: waiting for visibility of element located by By.xpath: (//main//*[translate(normalize-space(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='associate discount']/following-sibling::*) (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47, org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//main//*[translate(normalize-space(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='associate discount']/following-sibling::*) (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47
+[ERROR] 2026-07-01 09:24:12.506 com.qa.utils.TestUtils:229 - associate discount is not displayed
+[INFO ] 2026-07-01 09:24:12.642 com.qa.utils.TestUtils:215 - Error: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null, java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
+[ERROR] 2026-07-01 09:24:12.643 com.qa.utils.TestUtils:220 - Error occurred while getting text for element: Product Option, Error: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "element" is null, java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "element" is null
+[INFO ] 2026-07-01 09:24:12.817 com.qa.utils.TestUtils:215 - Retrieved attribute 'innerText from the Product 0 SKU in bag screen is - element, ' value: 196534611543
+[INFO ] 2026-07-01 09:24:17.880 com.qa.utils.TestUtils:215 - Scrolled into Element: Secure checkout Button
+[INFO ] 2026-07-01 09:24:18.002 com.qa.utils.TestUtils:215 - JS clicked Secure checkout Button
+[INFO ] 2026-07-01 09:24:49.073 com.qa.action.Action:1852 - Accepted OneTrust cookie banner.
+[INFO ] 2026-07-01 09:24:49.075 com.qa.utils.TestUtils:215 - User is in checkout contact detail page
+[INFO ] 2026-07-01 09:25:35.193 com.qa.utils.TestUtils:215 - Error: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[contains(text(),'Email')]/parent::div/following-sibling::div/child::input' (tried for 30 second(s) with 3000 milliseconds interval), org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[contains(text(),'Email')]/parent::div/following-sibling::div/child::input' (tried for 30 second(s) with 3000 milliseconds interval)
+[INFO ] 2026-07-01 09:25:35.194 com.qa.utils.TestUtils:215 - Email Field is not displayed
+[WARN ] 2026-07-01 09:25:35.195 com.qa.pages.CheckoutPage:1028 - Unable to fill contact details or User already entered contact details
+[INFO ] 2026-07-01 09:25:45.203 com.qa.utils.TestUtils:215 - Unable to find element found with locator type: xpath, Locator: //*[@role='alert' and not(contains(@class,'animate-fadeout'))], Error: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@role='alert' and not(contains(@class,'animate-fadeout'))] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47, org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@role='alert' and not(contains(@class,'animate-fadeout'))] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47
+[INFO ] 2026-07-01 09:25:55.244 com.qa.utils.TestUtils:215 - Shipping Methods is not displayed
+[INFO ] 2026-07-01 09:26:28.316 com.qa.utils.TestUtils:215 - Error: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='continue to payment methods']' (tried for 15 second(s) with 3000 milliseconds interval), org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='continue to payment methods']' (tried for 15 second(s) with 3000 milliseconds interval)
+[INFO ] 2026-07-01 09:26:28.317 com.qa.utils.TestUtils:215 - next payment option Button is not displayed
+[INFO ] 2026-07-01 09:26:48.391 com.qa.action.Action:62 - Error: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[text()='International Shipping']/parent::div/following-sibling::button' (tried for 3 second(s) with 500 milliseconds interval), org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[text()='International Shipping']/parent::div/following-sibling::button' (tried for 3 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-01 09:26:58.397 com.qa.action.Action:815 - Element is optional to click Close Button: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='International Shipping']/parent::div/following-sibling::button"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2762ca7fca1cfca9328d3cd02d445a47, findElement {using=xpath, value=//*[text()='International Shipping']/parent::div/following-sibling::button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47, org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='International Shipping']/parent::div/following-sibling::button"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2762ca7fca1cfca9328d3cd02d445a47, findElement {using=xpath, value=//*[text()='International Shipping']/parent::div/following-sibling::button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47
+[INFO ] 2026-07-01 09:27:06.438 com.qa.action.Action:1852 - Accepted OneTrust cookie banner.
+[INFO ] 2026-07-01 09:27:37.529 com.qa.utils.TestUtils:215 - Error occurred while switching to frame with Id "eProtect-iframe', Error: Expected condition failed: waiting for presence of element located by: By.id: eProtect-iframe (tried for 30 second(s) with 500 milliseconds interval), org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: eProtect-iframe (tried for 30 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-01 09:27:57.560 com.qa.utils.TestUtils:215 - Error: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: accountNumber' (tried for 10 second(s) with 3000 milliseconds interval), org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: accountNumber' (tried for 10 second(s) with 3000 milliseconds interval)
+[INFO ] 2026-07-01 09:27:57.561 com.qa.utils.TestUtils:215 - Card number is not displayed
+[INFO ] 2026-07-01 09:28:07.627 com.qa.utils.TestUtils:215 - Switched to default Frame
+[INFO ] 2026-07-01 09:28:07.627 com.qa.utils.TestUtils:215 - Credit card might be already autofilled or error in adding credit card
+[INFO ] 2026-07-01 09:28:27.693 com.qa.utils.TestUtils:215 - Error: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//button[@type='button' and contains(text(), 'Place Order') ])[last()]' (tried for 10 second(s) with 3000 milliseconds interval), org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//button[@type='button' and contains(text(), 'Place Order') ])[last()]' (tried for 10 second(s) with 3000 milliseconds interval)
+[INFO ] 2026-07-01 09:28:27.695 com.qa.utils.TestUtils:215 - placeOrderBtn is not displayed
+[ERROR] 2026-07-01 09:28:37.720 com.qa.utils.TestUtils:220 - Error occurred while scrolling into Element: Place Order Button, Error: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@type='button' and contains(text(), 'Place Order') ])[last()]"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2762ca7fca1cfca9328d3cd02d445a47, findElement {using=xpath, value=(//button[@type='button' and contains(text(), 'Place Order') ])[last()]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47, org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@type='button' and contains(text(), 'Place Order') ])[last()]"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2762ca7fca1cfca9328d3cd02d445a47, findElement {using=xpath, value=(//button[@type='button' and contains(text(), 'Place Order') ])[last()]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47
+[ERROR] 2026-07-01 09:28:47.938 com.qa.utils.TestUtils:220 - Unable to click using action on User clicked Place Order using Action Element
+[INFO ] 2026-07-01 09:28:58.144 com.qa.action.Action:800 - Error occurred while executing JS click for User clicked Place Order, error: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@type='button' and contains(text(), 'Place Order') ])[last()]"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2762ca7fca1cfca9328d3cd02d445a47, findElement {using=xpath, value=(//button[@type='button' and contains(text(), 'Place Order') ])[last()]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47, org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@type='button' and contains(text(), 'Place Order') ])[last()]"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2762ca7fca1cfca9328d3cd02d445a47, findElement {using=xpath, value=(//button[@type='button' and contains(text(), 'Place Order') ])[last()]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47
+[INFO ] 2026-07-01 09:29:28.266 com.qa.utils.TestUtils:215 - Error occurred while switching to frame with Id "coopcommerce', Error: No frame element found by name or id coopcommerce
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown, org.openqa.selenium.NoSuchFrameException: No frame element found by name or id coopcommerce
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown
+[INFO ] 2026-07-01 09:30:14.447 com.qa.utils.TestUtils:215 - Error: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //section[@data-testid='essential-close-button']//*[local-name() = 'svg']' (tried for 30 second(s) with 3000 milliseconds interval), org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //section[@data-testid='essential-close-button']//*[local-name() = 'svg']' (tried for 30 second(s) with 3000 milliseconds interval)
+[INFO ] 2026-07-01 09:30:14.447 com.qa.utils.TestUtils:215 - Redeem Your Bonus Popup close button is not displayed
+[INFO ] 2026-07-01 09:30:14.452 com.qa.utils.TestUtils:215 - Switched to default Frame
+[INFO ] 2026-07-01 09:30:44.559 com.qa.utils.TestUtils:215 - Error: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//button[@type='button' and contains(text(), 'Place Order') ])[last()]' (tried for 10 second(s) with 3000 milliseconds interval), org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//button[@type='button' and contains(text(), 'Place Order') ])[last()]' (tried for 10 second(s) with 3000 milliseconds interval)
+[INFO ] 2026-07-01 09:30:44.560 com.qa.utils.TestUtils:215 - Place Order Button is not displayed
+[INFO ] 2026-07-01 09:31:04.697 com.qa.utils.TestUtils:215 - Error occurred while switching to frame with Id "coopcommerce', Error: No frame element found by name or id coopcommerce
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown, org.openqa.selenium.NoSuchFrameException: No frame element found by name or id coopcommerce
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown
+[INFO ] 2026-07-01 09:31:50.928 com.qa.utils.TestUtils:215 - Error: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //section[@data-testid='essential-close-button']//*[local-name() = 'svg']' (tried for 30 second(s) with 3000 milliseconds interval), org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //section[@data-testid='essential-close-button']//*[local-name() = 'svg']' (tried for 30 second(s) with 3000 milliseconds interval)
+[INFO ] 2026-07-01 09:31:50.929 com.qa.utils.TestUtils:215 - Redeem Your Bonus Popup close button is not displayed
+[INFO ] 2026-07-01 09:31:50.933 com.qa.utils.TestUtils:215 - Switched to default Frame
+[INFO ] 2026-07-01 09:33:06.216 com.qa.utils.TestUtils:215 - Error: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //h1[normalize-space()='Order Confirmation']/following-sibling::span' (tried for 60 second(s) with 1000 milliseconds interval), org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //h1[normalize-space()='Order Confirmation']/following-sibling::span' (tried for 60 second(s) with 1000 milliseconds interval)
+[ERROR] 2026-07-01 09:33:16.254 com.qa.utils.TestUtils:220 - Error occurred while getting text for element: Order Number, Error: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Order Confirmation']/following-sibling::span"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2762ca7fca1cfca9328d3cd02d445a47, findElement {using=xpath, value=//h1[normalize-space()='Order Confirmation']/following-sibling::span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47, org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Order Confirmation']/following-sibling::span"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2762ca7fca1cfca9328d3cd02d445a47, findElement {using=xpath, value=//h1[normalize-space()='Order Confirmation']/following-sibling::span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47
+[INFO ] 2026-07-01 09:33:17.379 com.qa.action.Action:1139 - Scrolled To The Top Of the Page
+[ERROR] 2026-07-01 09:33:17.485 com.qa.utils.TestUtils:220 - verify_CC_Checkout_For_Tier1_Loyalty_Associate_User is failed
+[INFO ] 2026-07-01 09:33:17.590 com.qa.utils.TestUtils:235 - verify_CC_Checkout_For_Tier1_Loyalty_Associate_User execution is completed successfully
+[INFO ] 2026-07-01 09:33:17.591 com.qa.listeners.RetryAnalyzer:18 - Retrying test: verify_CC_Checkout_For_Tier1_Loyalty_Associate_User (1)
+*************TEST SKIPPED***************verify_CC_Checkout_For_Tier1_Loyalty_Associate_User
+null
+[INFO ] 2026-07-01 09:33:27.971 com.qa.action.Action:692 - Session Id Element is not displayed, Error: no such element: Unable to locate element: {"method":"xpath","selector":"//footer[@id='site-footer']//span[contains(text(),'Copyright ')]//following-sibling::span"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2762ca7fca1cfca9328d3cd02d445a47, findElement {using=xpath, value=//footer[@id='site-footer']//span[contains(text(),'Copyright ')]//following-sibling::span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47, org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//footer[@id='site-footer']//span[contains(text(),'Copyright ')]//following-sibling::span"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2762ca7fca1cfca9328d3cd02d445a47, findElement {using=xpath, value=//footer[@id='site-footer']//span[contains(text(),'Copyright ')]//following-sibling::span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56760}, goog:processID: 22900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56760/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2762ca7fca1cfca9328d3cd02d445a47
+[INFO ] 2026-07-01 09:33:27.972 com.qa.utils.TestUtils:215 - Session Id not displayed
+[INFO ] 2026-07-01 09:33:28.746 com.qa.base.BaseTest:218 - Run Mode: Local
+Jul 01, 2026 9:33:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 01, 2026 9:33:38 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 149.0.7827.200. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Discount pop up not displayed
+[INFO ] 2026-07-01 09:33:56.196 com.qa.base.BaseTest:427 - 'Accept All Cookies' button not found or not visible. Skipping.
+[INFO ] 2026-07-01 09:33:56.593 com.qa.plcctests.AssociateCartCheckoutTest:29 - Started Class Name: Associate, Test: verify_CC_Checkout_For_Tier1_Loyalty_Associate_User
+[INFO ] 2026-07-01 09:33:56.661 com.qa.action.Action:686 - Vercel Login Button is displayed
+[INFO ] 2026-07-01 09:33:56.795 com.qa.action.Action:367 - Keys entered to the Vercel Password element, value: FASChicos83!
+[INFO ] 2026-07-01 09:33:56.895 com.qa.action.Action:703 - Vercel Login Button is displayed
+[INFO ] 2026-07-01 09:34:05.738 com.qa.action.Action:785 - JS clicked Vercel Login Button Button
+[INFO ] 2026-07-01 09:34:11.067 com.qa.action.Action:1852 - Accepted OneTrust cookie banner.
+[INFO ] 2026-07-01 09:34:12.065 com.qa.utils.TestUtils:215 - Clicked Account link button
+[INFO ] 2026-07-01 09:34:19.051 com.qa.action.Action:1852 - Accepted OneTrust cookie banner.
+[INFO ] 2026-07-01 09:34:29.109 com.qa.utils.TestUtils:215 - Unable to find element found with locator type: xpath, Locator: //*[@role='alert' and not(contains(@class,'animate-fadeout'))], Error: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@role='alert' and not(contains(@class,'animate-fadeout'))] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47, org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@role='alert' and not(contains(@class,'animate-fadeout'))] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47
+[INFO ] 2026-07-01 09:34:39.157 com.qa.action.Action:692 - Accept Cookies Button is not displayed, Error: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Accept All Cookies']"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//button[normalize-space()='Accept All Cookies']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47, org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Accept All Cookies']"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//button[normalize-space()='Accept All Cookies']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47
+[INFO ] 2026-07-01 09:34:39.291 com.qa.utils.TestUtils:215 - Email Field: Test900.chs@ecommqa.com
+[INFO ] 2026-07-01 09:34:39.456 com.qa.utils.TestUtils:215 - Password Field: Test@123
+[INFO ] 2026-07-01 09:34:44.576 com.qa.utils.TestUtils:215 - JS clicked signIn Button
+[INFO ] 2026-07-01 09:35:00.082 com.qa.action.Action:62 - Error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//*[text()='International Shipping']/parent::div/following-sibling::button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47, org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//*[text()='International Shipping']/parent::div/following-sibling::button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47
+[INFO ] 2026-07-01 09:35:00.084 com.qa.action.Action:815 - Element is optional to click Close Button: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//*[text()='International Shipping']/parent::div/following-sibling::button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47, org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//*[text()='International Shipping']/parent::div/following-sibling::button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47
+[INFO ] 2026-07-01 09:35:00.089 com.qa.utils.TestUtils:215 - My Account link is displayed, Error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//*[@data-test-id='menu_header_account_my_account_link' or @data-qa='my_account_link']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47, org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//*[@data-test-id='menu_header_account_my_account_link' or @data-qa='my_account_link']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47
+[ERROR] 2026-07-01 09:35:00.093 com.qa.utils.TestUtils:220 - Error occurred while executing JS click for Account Link, error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//button//*[contains(normalize-space(),'Hi ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47, org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//button//*[contains(normalize-space(),'Hi ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47
+[INFO ] 2026-07-01 09:35:00.096 com.qa.listeners.RetryAnalyzer:18 - Retrying test: verify_CC_Checkout_For_Tier1_Loyalty_Associate_User (2)
+*************TEST SKIPPED***************verify_CC_Checkout_For_Tier1_Loyalty_Associate_User
+java.lang.NullPointerException: file
+[INFO ] 2026-07-01 09:35:00.408 com.qa.action.Action:692 - Session Id Element is not displayed, Error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//footer[@id='site-footer']//span[contains(text(),'Copyright ')]//following-sibling::span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47, org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e86cb958b26c2ae085353d9a2a86f47, findElement {using=xpath, value=//footer[@id='site-footer']//span[contains(text(),'Copyright ')]//following-sibling::span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52002}, goog:processID: 7924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52002/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e86cb958b26c2ae085353d9a2a86f47
+[INFO ] 2026-07-01 09:35:00.409 com.qa.utils.TestUtils:215 - Session Id not displayed
+[INFO ] 2026-07-01 09:35:00.657 com.qa.base.BaseTest:218 - Run Mode: Local
+Jul 01, 2026 9:35:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 01, 2026 9:35:02 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 149.0.7827.200. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Discount pop up not displayed
+[INFO ] 2026-07-01 09:35:06.250 com.qa.base.BaseTest:430 - Error when handling 'Accept All Cookies' button: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=149.0.7827.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, findElements {using=xpath, value=//button[text()='Accept All Cookies']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782
+[ERROR] 2026-07-01 09:35:06.339 com.qa.base.BaseTest:458 - org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, addCookie {cookie=x-vercel-protection-bypass=TTH7jfeKmgcv8QLzcefsAd3Y8wVVlXZh; path=/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782
+[INFO ] 2026-07-01 09:35:06.342 com.qa.plcctests.AssociateCartCheckoutTest:29 - Started Class Name: Associate, Test: verify_CC_Checkout_For_Tier1_Loyalty_Associate_User
+[INFO ] 2026-07-01 09:35:06.346 com.qa.action.Action:692 - Vercel Login Button is not displayed, Error: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, findElement {using=class name, value=submit}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782, org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, findElement {using=class name, value=submit}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782
+[WARN ] 2026-07-01 09:35:11.357 com.qa.action.Action:1855 - Could not click OneTrust cookie banner: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, executeScript {script=var btn=document.querySelector('button#onetrust-accept-btn-handler');if(btn){btn.click();return true;}return false;, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782
+[INFO ] 2026-07-01 09:35:11.380 com.qa.utils.TestUtils:215 - invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, findElement {using=xpath, value=//*[translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782, org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, findElement {using=xpath, value=//*[translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782
+[INFO ] 2026-07-01 09:35:11.385 com.qa.action.Action:62 - Error: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, findElement {using=xpath, value=//*[translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782, org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, findElement {using=xpath, value=//*[translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782
+[ERROR] 2026-07-01 09:35:11.396 com.qa.utils.TestUtils:220 - Exception occurred while clicking Account link Button: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, findElement {using=xpath, value=//*[translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782, org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, findElement {using=xpath, value=//*[translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782
+[ERROR] 2026-07-01 09:35:11.403 com.qa.listeners.TestListener:36 - java.lang.NullPointerException: file
+	at java.base/java.util.Objects.requireNonNull(Objects.java:259)
+	at org.apache.commons.io.FileUtils.readFileToByteArray(FileUtils.java:2652)
+	at com.qa.utils.TestUtils.toTakeScreenshotAndAttachToReport(TestUtils.java:287)
+	at com.qa.utils.TestUtils.logAndReportError(TestUtils.java:225)
+	at com.qa.action.Action.click(Action.java:826)
+	at com.qa.pages.HomePage.clickAccountButton(HomePage.java:475)
+	at com.qa.plcctests.AssociateCartCheckoutTest.verify_CC_Checkout_For_Tier1_Loyalty_Associate_User(AssociateCartCheckoutTest.java:95)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+[ERROR] 2026-07-01 09:35:11.409 com.qa.listeners.TestListener:36 - org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at com.qa.listeners.TestListener.onTestFailure(TestListener.java:39)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:108)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:262)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:751)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2eae9b1718d2762fd72a3c8582c13782, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\NIVETH~1.SAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53669}, goog:processID: 18192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53669/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eae9b1718d2762fd72a3c8582c13782
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at com.qa.listeners.TestListener.onTestFailure(TestListener.java:39)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:108)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:262)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:973)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
