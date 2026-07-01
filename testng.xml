@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="30" parallel="tests"
+	configfailurepolicy="continue">
+	<listeners>
+		<listener class-name="com.qa.listeners.TestListener" />
+	</listeners>
+	<parameter name="testEnv" value="QA2" />
+	<parameter name="browser" value="Chrome" />
+	<parameter name="Brand" value="WHBM" />
+	<parameter name="Suite" value="MasterRegression" />
+	
+	<test name="AccountTest1">
+		<parameter name="className" value="AccountTest1" />
+		<classes>
+			<class name="com.qa.tests.PLCCE2ETest">
+				<methods>
+					<include
+						name='verify_PLCC_Checkout_For_New_Card_First_Transaction' />
+			
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>
