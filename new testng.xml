@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="1" parallel="false"
+	configfailurepolicy="continue">
+	<listeners>
+		<listener class-name="com.qa.listeners.TestListener" />
+	</listeners>
+	<parameter name="testEnv" value="QAEXT" />
+	<parameter name="browser" value="Chrome" />
+	<parameter name="Brand" value="CHICOS" />
+	<parameter name="Suite" value="Regression" />
+
+	<test name="PLCC_Associate_Cart_Checkout">
+		<parameter name="className" value="AssociateCartCheckoutTest" />
+		<classes>
+			<class name="com.qa.plcctests.AssociateCartCheckoutTest">
+				<methods>
+					<include name='verify_Associate_User_Can_Apply_And_Remove_Coupon_In_Cart_And_Checkout' />
+					<include name='verify_CC_Checkout_For_Tier1_Loyalty_Associate_User' />
+					<include name='verify_CC_Checkout_For_Tier2_Loyalty_Associate_User' />
+					<include name='verify_Associate_PLCC_Checkout_For_Tier3_Loyalty_User' />
+					<include name='verify_Associate_CBCC_Checkout_For_Tier4_Loyalty_User' />
+					<include name='validate_Associate_GC_Checkout_With_PLCC' />
+					<include name='validate_Associate_GC_Checkout_With_CBCC' />
+					<include name='verify_Successful_Associate_Checkout_With_PLCC_For_STH_BOPIS_GC' />
+					<include name='verify_Successful_Associate_Checkout_With_CBCC_For_STH_BOPIS_GC' />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
