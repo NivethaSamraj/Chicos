@@ -1,0 +1,5 @@
+Run the isolated 9-test PLCC AssociateCartCheckout suite on QA2 to capture a fresh baseline.
+Apply the handlePageLoading() framework fix and re-run to confirm how many of the 7 failures recover.
+Fix the myAccountLink locator for QA2 to unblock the associate PLCC/CBCC navigation.
+Investigate the continueAppcontent timeout to confirm whether it's a code or QA2 environment issue.
+Log all changes in the Cortez change tracker for the team.
